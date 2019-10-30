@@ -639,6 +639,8 @@ Public Class MassarelliShippingLabels
         Timer3.Enabled = False
         PreviewShippingLabels()
         lblLoadingPreview.Visible = False
+        tbOrderNo.Select()
+
         Cursor = Cursors.Default
     End Sub
 
